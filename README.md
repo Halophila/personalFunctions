@@ -6,7 +6,7 @@ Little functions that help analyze and graph
 ``` R
 > ##example
 > a = 1:10
-> b = a*2
+> b = a * 2
 > equationMaker(lm(b~a))
 [1] "italic(y) == 2 ~italic(x) +0" "italic(r)^2 == 1"  
 ```
