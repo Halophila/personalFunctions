@@ -1,4 +1,4 @@
-equationMaker <- function(lmmodel, dec_num = 1){
+equationPrinter <- function(lmmodel, dec_num = 1){
   coefs <- coef(lmmodel)
   intercept <- round(coefs[1], dec_num)
   slope <- round(coefs[2], dec_num)
