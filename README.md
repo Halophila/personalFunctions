@@ -11,4 +11,5 @@ Little functions that help analyze and graph
 [1] "italic(y) == 2 ~italic(x) +0" "italic(r)^2 == 1"  
 ```
 <br>
+
 `csvBinder` will collate all CSV files in a directory into a single dataframe by rows, matching columns.
