@@ -10,3 +10,5 @@ Little functions that help analyze and graph
 > equationPrinter(lm(b ~ a))
 [1] "italic(y) == 2 ~italic(x) +0" "italic(r)^2 == 1"  
 ```
+
+`csvBinder` will collate all CSV files in a directory into a single dataframe by rows, matching columns.
