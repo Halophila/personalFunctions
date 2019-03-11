@@ -22,7 +22,7 @@ Little functions that help analyze and graph
 
 ***
 
-`%!in%` is the equivalent of "not in" in SQL. `%in%` is R's equivalent to SQL's `in` operator. This function provides the opposite.
+`%!in%` is the equivalent of the `not in` operator in SQL. `%in%` is R's equivalent to SQL's `in` operator. This function provides the opposite.
 
 ```R
 > datavector <- c(3,4,6,3)
