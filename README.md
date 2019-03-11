@@ -13,3 +13,14 @@ Little functions that help analyze and graph
 <br>
 
 `csvBinder` will collate all CSV files in a directory into a single dataframe by rows, matching columns.
+
+<br>
+<br>
+
+`%!in%` is the equivalent of "not in" in SQL. `%in%` is R's equivalent to SQL's `in` operator. This function provides the opposite.
+
+```R
+> datavector <- c(3,4,6,3)
+> datavector %!in% c(3,4)
+[1] FALSE FALSE  TRUE FALSE
+```
